@@ -12,7 +12,7 @@ public class TC01 extends BaseTest {
     @Test(dataProvider = "testData")
     public void test(String username, String password){
         LoginPage loginPage = new LoginPage(getDriver());
-        loginPage.navigateToPage("https://sma.tec.sh/admin/login");
+        loginPage.navigateToPage("https://sma.tec.sh/admin/login1");
         loginPage.login(username, password);
     }
 
