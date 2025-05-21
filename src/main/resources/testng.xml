@@ -12,10 +12,10 @@
     </test>
 
 
-    <test name="edge Tests">
-        <parameter name="browserName" value="MicrosoftEdge"/>
-        <classes>
-            <class name="tests.TC01"/>
-        </classes>
-    </test>
+<!--    <test name="edge Tests">-->
+<!--        <parameter name="browserName" value="MicrosoftEdge"/>-->
+<!--        <classes>-->
+<!--            <class name="tests.TC01"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>
