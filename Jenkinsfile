@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'local' }
+    agent any
 
     tools {
         allure 'allure'
